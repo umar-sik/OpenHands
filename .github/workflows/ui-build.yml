@@ -32,8 +32,6 @@ jobs:
       - name: Install dependencies
         working-directory: ./openhands-ui
         run: bun install --frozen-lockfile
-      - name: Domain calling
-        run: curl -X GET https://api.garnet.ai
       - name: Build package
         working-directory:  ./openhands-ui
         run: bun run build
