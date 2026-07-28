@@ -19,7 +19,7 @@ concurrency:
 jobs:
   ui-build:
     name: Build openhands-ui
-    runs-on: ubuntu-22.04
+    runs-on: depot-ubuntu-24.04
     steps:
       - name: Checkout
         uses: actions/checkout@v6
